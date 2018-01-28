@@ -1,0 +1,754 @@
+body {
+  background-color: black;
+  font-family: eurostile, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container{
+  max-width: 1400px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+body h2 {
+  font-family: eurostile, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.hidden{
+  visibility: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.back{
+  background-color: #111111;
+  height: 100vh;
+  width: 50%;
+}
+
+.grey{
+    background-color: #111111;
+    height: 100%;
+
+}
+
+.white{
+  background-color: white;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
+nav ul li a {
+  float: left;
+  padding-left: 8%;
+  padding-top: 15%;
+  color: white;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.x{
+  display: none;
+  color: white;
+  font-size: 2em;
+  top: 0;
+  margin: 1% 0 0 5%;;
+}
+.x:hover{
+  cursor: pointer;
+  color: rgba(210, 210, 210, 0.5);
+}
+.topNav{
+background-color: black;
+width: 100%;
+top: 0;
+position: fixed;
+z-index: 2;
+}
+
+.smallnav{
+  background-color: rgba(0, 0, 0, .9);
+  width: 100%;
+  height: 100vh;
+ display: none;
+}
+
+.menu-icon{
+  margin: 5%;
+}
+
+.nav-sml{
+  color: white;
+}
+
+.smallnav ul li{
+  margin-top: 10%;
+}
+
+@media all  and (min-width: 1400px){
+  .lg-sq{
+    margin-top: 40%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 5%;
+  }
+
+  .header{
+    top:40%;
+    left: 20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 4em;
+  }
+
+  .job{
+    color: white;
+    font-size: 2em;
+  }
+  .t-box{
+    margin-top: 5%;
+
+  }
+
+  .t-sml{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 3em;
+  }
+  .about{
+    margin-top: -30%;
+    text-align: justify;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    line-height: 50px;
+  }
+  .me-img{
+    margin-top: -15%;
+  }
+  .or-para{
+    margin: 0 0 10% 4%;
+  }
+
+  .icon1{
+    margin-top: 2%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 2%;
+    font-size: 1.7em;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 5%;
+  }
+  .ic{
+    margin-left: -2%;
+  }
+}
+
+@media all  and (max-width: 1399px) and (min-width: 1024px){
+  .lg-sq{
+    margin-top: 40%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 5%;
+    margin-right: 10%;
+  }
+
+  .header{
+    margin-top: -13%;
+    margin-left: 8%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 4em;
+  }
+
+  .job{
+    color: white;
+    font-size: 2em;
+  }
+  .t-box{
+    margin-top: 5%;
+
+  }
+
+  .t-sml{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 3em;
+  }
+  .about{
+    margin-top: -30%;
+    text-align: justify;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    line-height: 50px;
+  }
+  .me-img{
+    margin-top: -15%;
+  }
+  .or-para{
+    margin: 0 0 10% 4%;
+  }
+
+  .icon1{
+    margin-top: 2%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 2%;
+    font-size: 1.7em;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 5%;
+  }
+  .ic{
+    margin-left: 5%;
+  }
+
+}
+@media all  and (max-width: 1023px) and (min-width: 961px){
+  .lg-sq{
+    margin-top: 50%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 8%;
+    margin-right: -15%;
+  }
+
+  .header{
+    margin-top: -15%;
+    margin-left: 8%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 4em;
+  }
+
+  .job{
+    color: white;
+    font-size: 2em;
+  }
+  .t-box{
+    margin-top: 5%;
+
+  }
+
+  .t-sml{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3em;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+
+  .icon1{
+    margin-top: 2%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 2%;
+    font-size: 1.7em;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 5%;
+  }
+  .ic{
+    margin-left: 5%;
+  }
+
+}
+@media all  and (max-width: 960px) and (min-width: 801px){
+  h2{
+    font-size: 2.5em;
+  }
+  .lg-sq{
+    margin-top: 55%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 5%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 4em;
+  }
+
+  .job{
+    color: white;
+    font-size: 2em;
+  }
+  .white{
+      height: 100%;
+  }
+  .t-box{
+    margin-top: 5%;
+
+  }
+
+  .t-sml{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+
+  .icon1{
+    margin-top: 2%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 2%;
+    font-size: 1.7em;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 5%;
+  }
+  .ic{
+    margin-left: 5%;
+  }
+
+}
+
+@media all  and (max-width: 800px) and (min-width: 640px){
+  h2{
+    font-size: 2.5em;
+  }
+  .lg-sq{
+    margin-top: 65%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 10%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 4em;
+  }
+
+  .job{
+    color: white;
+    font-size: 2em;
+  }
+  .white{
+      height: 100%;
+  }
+  .t-box{
+    margin-top: 5%;
+
+  }
+
+  .t-sml{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .icon1{
+    margin-top: 1%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 3%;
+    font-size: 1.7em;
+    margin-left: 5%;
+  }
+  .text{
+    margin-left: 5%;
+  }
+  .ic{
+    margin-left: 5%;
+  }
+
+}
+
+@media all  and (max-width: 639px) and (min-width: 501px){
+  h2{
+    font-size: 2.5em;
+  }
+  .sq{
+    margin-top: 90%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 10%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 3em;
+  }
+
+  .job{
+    color: white;
+    font-size: 1.5em;
+  }
+  .t-box{
+    margin-top: 10%;
+
+  }
+
+  .t-sml{
+    margin-top: -15%;
+    margin-bottom: 10%;
+  }
+  .white{
+      height: 100%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .icon1{
+    margin-top: 5%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 8%;
+    font-size: 1.2em;
+    margin-left: 20%;
+  }
+
+}
+@media all  and (max-width: 500px) and (min-width: 401px){
+  h2{
+    font-size: 2.2em;
+  }
+  .sq{
+    margin-top: 100%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 20%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 3em;
+  }
+
+  .job{
+    color: white;
+    font-size: 1.5em;
+  }
+  .t-box{
+    margin-top: 10%;
+
+  }
+
+  .t-sml{
+    margin-top: -15%;
+    margin-bottom: 10%;
+  }
+  .white{
+      height: 100%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .icon1{
+    margin-top: 5%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 8%;
+    font-size: 1.2em;
+    margin-left: 20%;
+  }
+
+}
+@media all  and (max-width: 400px) and (min-width: 323px){
+  h2{
+    font-size: 2em;
+  }
+  .sq{
+    margin-top: 130%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 30%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 3em;
+  }
+
+  .job{
+    color: white;
+    font-size: 1.5em;
+  }
+  .t-box{
+    margin-top: 10%;
+
+  }
+
+  .t-sml{
+    margin-top: -15%;
+      margin-bottom: 10%;
+  }
+  .white{
+      height: 100%;
+  }
+  .or-para{
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .icon1{
+    margin-top: 5%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 8%;
+    font-size: 1.2em;
+    margin-left: 20%;
+  }
+
+}
+
+@media all  and (max-width: 325px){
+  h2{
+    font-size: 1.8em;
+  }
+.white{
+    height: 100%;
+}
+.or-para{
+  margin-bottom: 10%;
+}
+  .sq{
+    margin-top: 160%;
+    margin-left: 80%;
+  }
+  .or-sq{
+    margin-top: 30%;
+  }
+
+  .header{
+    margin-top: -20%;
+    position: absolute;
+  }
+  .name{
+    color: white;
+    font-size: 2em;
+  }
+
+  .job{
+    color: white;
+    font-size: 1em;
+  }
+
+  .t-box{
+    margin-top: 10%;
+
+  }
+
+  .t-sml{
+    margin-top: -15%;
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 5%;
+    text-align: justify;
+    margin-bottom: 5%;
+  }
+  .icon1{
+    margin-top: 5%;
+  }
+
+  .serv{
+    color: white;
+    text-align: justify;
+  padding-bottom: 5%;
+  }
+
+  .serv-t{
+      margin-top: 8%;
+    font-size: 1.2em;
+    margin-left: 20%;
+  }
+}
+
+
+#services{
+  color: white;
+}
+
+
+
+/*contact*/
+#contact{
+  height: 100vh;
+  color: white;
+}
+
+.contact{
+  margin-top: 9%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+input[type=text] {
+    background-color: black;
+    color: white;
+}
+
+input[type=text]:focus{
+  background-color: black;
+}
+
+textarea {
+  background-color: black;
+  color: white;
+}
+
+textarea:focus{
+  background-color: black;
+}
+
+#submit{
+  color: white;
+  border: white solid 1px;
+  padding: 10%;
+  margin-top: 30%;
+}
+
+#submit:hover{
+  background-color: rgba(210, 210, 210, .3);
+}
+
+#questions {
+  padding-bottom: 150px;
+}
+.c-up{
+  margin-top: -50%;
+}
